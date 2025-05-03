@@ -15,6 +15,10 @@ savilerow <model> <instance> [-sat]
 ```
 
 The `-sat` parameter enforces SAT encoding which can improve performance.
+
+## Evaluator
+
+The `evaluator.sh` script runs each instance and generates a CSV file containing the runtime of the solver as a basic performance metric.
  
 # Cleaning Log Files
 
